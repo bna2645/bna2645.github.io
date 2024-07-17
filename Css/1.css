@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img01 {
+    max-width: 100%;
+    height: auto;
+}
+
+#answerInput {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+audio {
+    display: none;
+ 
+}

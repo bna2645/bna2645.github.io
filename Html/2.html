@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../Image/happy birthday.png">
+    <title>Lời chúc của Bạn Anh ( Giấu Tên )</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css01.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron img_banner_hpbd">
+            <div class="text-center text-danger bg-danger">
+                <h1>TO: NGUYỄN MAI ANH </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-4 col-md-4 col-sm-4">
+                <p style="padding-top: 5px"></p>
+                <span class="text-capitalize text-right bottom-align-text">
+                    <!-- <button type="button" class="btn btn-danger btn-lg text-danger" data-toggle="modal" data-target="#myModal">
+                        OPEN CARD
+                    </button> -->
+                    <p></p>
+            </div>
+            <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
+                <!-- <button type="button" class="">
+                   
+                    </button> -->
+                <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
+                    src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 360px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title text-info" id="myModalLabel">Chúc Mừng Sinh Nhật</h4>
+
+                </div>
+                <div class="modal-body">
+                    <div class="containeri">
+                        <img class="img img-responsive" src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 560px">
+                        <audio id="myAudio" controls>
+                            <source src="ms/hpbd.MP3" type="audio/ogg" />
+                            <source src="ms/hppd.MP3" type="audio/mpeg" />
+                           
+                        </audio>
+                        
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var audioElement = document.getElementById('myAudio');
+                            audioElement.volume = 0.3; // Set volume to 50%
+                            audioElement.play();
+                        });
+                        </script>
+                    </div>
+                    </div>
+                    <h1 class="heading text-danger bg-danger">
+                        <div class="containeri">
+                            <img class="img img-responsive" src="img/thiep.png">
+                            <!-- <p class="top-right"> Dear Bùi Nguyễn Xuân Mai </p> 
+                            <p class="bottom-right">Chúc cậu một ngày sinh nhật vui vẻ. </p>
+                            <p class="top-left">Chúc cậu tuổi mới ngày càng xinh đẹp, học giỏi.</p>
+                            <p class="and">Chúc cậu có thể đạt được ước mơ mà cậu mong muốn.</p>
+                            <p class="center">Nhớ thành công và kiên trì trên con đường mình chọn nhé!</p>
+                            <p class="bottom-left">Nguyễn Thanh Vân</p>
+                            <p class="bottom-center">(Giấu Tên)</p> -->
+
+                        </div>
+                    </h1>
+                    <!-- <div class="containeri">
+                        <img class="img img-responsive" src="img/Mai.jpg">
+                    </div> -->
+                </div>
+                <div class="modal-footer">
+                 <button id="backButton"  onclick="back()">Back</button>
+
+                    <!-- <button type="button"  onclick="codelor()" class="btn btn-primary">Ôi bạn code đẹp quá.</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <!-- <p class="text-left">
+                       Mai Mai: facebook.com/profile.php?id=100070192262300 <br>
+                       
+                    </p> -->
+                </div>
+                <div class="col-xs-4">
+                    <!-- <p class="text-center text-capitalize kp">HAPPY BIRTHDAY TO YOU! </p> -->
+                    <!-- <img class="img img-responsive" src="img/title.jpg" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- required, default behaviour -->
+    <script src="js/snowstorm-min.js"></script>
+    <script src="js/js01.js"></script>
+   
+
+</body>
+
+</html>

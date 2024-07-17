@@ -1,0 +1,66 @@
+/* Style của cửa sổ modal */
+.modal {
+    display: none; /* Ẩn mặc định */
+    position: fixed; /* Đặt vị trí cố định */
+    z-index: 1; /* Đặt z-index để đảm bảo nó luôn nằm trên cùng */
+    padding-top: 100px; /* Vị trí từ trên xuống */
+    left: 0;
+    top: 0;
+    width: 100%; /* Chiều rộng đầy đủ */
+    height: 100%; /* Chiều cao đầy đủ */
+    overflow: auto; /* Bật thanh cuộn nếu cần */
+    background-color: rgb(0,0,0); /* Màu nền */
+    background-color: rgba(0,0,0,0.4); /* Màu nền với độ mờ */
+}
+
+/* Style của hình ảnh modal */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao bằng với chiều cao của viewport */
+}
+
+input {
+    width: 30%;
+    height: 8%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px ;
+    margin: 8px 0px 8px 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 10%;
+    height: 8%;
+}
+audio {
+    display: none;
+ 
+}
+@font-face {
+    font-family: 'cooperb';
+    src: url('../Html/font/UTMAvoBold_1.ttf');
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'cooperb',cursive;
+    color: #3a5c48;
+}

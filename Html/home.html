@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../Image/happy birthday.png" />
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" type="text/css" href="./Css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../Css/home.css" />
+        <link rel="stylesheet" href="../Css/background.css" />
+    </head>
+    <body>
+        <audio id="myAudio" controls>
+            <source src="ms/4.MP3" type="audio/ogg" />
+            <source src="ms/4.MP3" type="audio/mpeg" />
+            <a href="#">horse</a>
+        </audio>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var audioElement = document.getElementById("myAudio");
+                audioElement.volume = 0.1; // Set volume to 10%
+                audioElement.play();
+            });
+        </script>
+
+        <img class="title" src="../Image/happy birthday.png" alt="Hình ảnh" />
+        <img src="../Image/bánh.png" alt="Hình ảnh" />
+        <div class="buttons">
+            <button id="b1" class="move" onclick="confirmAndRedirect1()">
+                ZAI ĐẸP <br />
+                6 MÚI
+            </button>
+            <button id="backButton" onclick="back()">Back</button>
+            <button id="b2" class="move" onclick="confirmAndRedirect2()">
+                LỜI CHÚC TUYỆT VỜI <br />
+                TỪ <br />
+                BẠN BNA GIẤU TÊN
+            </button>
+        </div>
+
+        <script src="../Js/home.js"></script>
+    </body>
+</html>

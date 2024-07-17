@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../Image/happy birthday.png" />
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" href="../Css/background.css" />
+        <link rel="stylesheet" type="text/css" href="./Css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://s.pageclip.co/v1/pageclip.css"
+            media="screen"
+        />
+    </head>
+    <body>
+        <h1>Nhập Ngày Sinh Của M.Anh Đi</h1>
+        <audio id="myAudio" controls>
+            <source src="./Html/ms/1.mp3" type="audio/ogg" />
+            <source src="./Html/ms/1.mp3" type="audio/mpeg" />
+            <a href="#">horse</a>
+        </audio>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var audioElement = document.getElementById("myAudio");
+                audioElement.volume = 0.1; // Set volume to 10%
+                audioElement.play();
+            });
+        </script>
+
+        <div class="container">
+            <input type="date" id="dateInput" />
+            <button onclick="checkDate()">Submit</button>
+        </div>
+
+        <!-- Cửa sổ modal -->
+        <div id="myModal" class="modal">
+            <img class="modal-content" id="img01" src="./Image/Ngu.png" />
+        </div>
+
+        <script src="./Js/script.js"></script>
+        <script
+            src="https://s.pageclip.co/v1/pageclip.js"
+            charset="utf-8"
+        ></script>
+    </body>
+</html>
